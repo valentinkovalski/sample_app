@@ -7,13 +7,15 @@ gem 'jquery-rails'
 
 group :development do
   gem 'rspec-rails', "~> 2.6"
-  gem 'autotest-standalone'
 end
 
 group :test do
   gem 'rspec-rails', "~> 2.6"
   gem 'webrat'
-  gem 'autotest-standalone'
+ gem 'autotest', '4.4.6'
+ gem 'autotest-rails-pure', '4.1.2'
+ gem 'autotest-fsevent', '0.2.4'
+ gem 'autotest-growl', '0.2.9'
 end
 
 # Gems used only for assets and not required
